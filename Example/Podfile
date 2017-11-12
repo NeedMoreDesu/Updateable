@@ -1,6 +1,0 @@
-use_frameworks!
-target 'Updateable_Tests' do
-  pod 'Updateable', :path => '../'
-  
-  
-end
