@@ -1,4 +1,4 @@
-protocol Updateable {
+public protocol Updateable {
 
 }
 
