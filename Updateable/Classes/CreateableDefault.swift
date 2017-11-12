@@ -1,4 +1,4 @@
-protocol CreateableDefault: Createable {
+public protocol CreateableDefault: Createable {
     init()
 }
 

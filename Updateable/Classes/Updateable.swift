@@ -1,4 +1,5 @@
 protocol Updateable {
+
 }
 
 extension Updateable {
@@ -7,7 +8,7 @@ extension Updateable {
         block(&item)
         return item
     }
-    
+
     func map(block: (Self) -> Self?) -> Self? {
         return block(self)
     }
