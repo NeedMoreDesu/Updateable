@@ -63,6 +63,34 @@ SomeVC.create {
 }
 ```
 
+Using native struct initializer instead of Createable
+
+``` swift
+struct SomeStruct: Updateable {
+    var someInt: Int
+    var someString: String
+}
+
+let a = SomeStruct(someInt: 100, someString: "No .init() involved")
+
+a.someInt // 100
+a.someString // "No .init() involved"
+
+let b = a.update {
+    $0.someString = "Yeah."
+}
+
+b.someInt // 100
+b.someString // "Yeah"
+
+let c = a.map { (old) -> SomeStruct? in
+    return SomeStruct(someInt: 9000, someString: "No jokes")
+}!
+
+c.someInt // 9000
+c.someString // "No jokes"
+```
+
 ## Installation
 
 Updateable is available through [CocoaPods](http://cocoapods.org). To install
