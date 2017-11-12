@@ -76,7 +76,7 @@ pod 'Updateable'
 
 Oleksii Horishnii, oleksii.horishnii@gmail.com
 
-[Pavel Taykalo](https://github.com/PaulTaykalo), tt.kilew@gmail.com
+Inspired by https://gist.github.com/PaulTaykalo/43ff20e3313644c5b3ab7390221e8e7a by [Pavel Taykalo](https://github.com/PaulTaykalo), tt.kilew@gmail.com
 
 ## License
 
