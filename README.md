@@ -75,6 +75,7 @@ pod 'Updateable'
 ## Author
 
 Oleksii Horishnii, oleksii.horishnii@gmail.com
+
 [Pavel Taykalo](https://github.com/PaulTaykalo), tt.kilew@gmail.com
 
 ## License
