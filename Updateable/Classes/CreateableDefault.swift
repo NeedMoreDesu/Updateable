@@ -3,7 +3,7 @@ public protocol CreateableDefault: Createable {
 }
 
 extension CreateableDefault {
-    static func create() -> Any? {
+    public static func create() -> Any? {
         return Self()
     }
 }
